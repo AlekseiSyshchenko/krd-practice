@@ -7,11 +7,9 @@ def greeting(name, surname, age)
 end
 
 
-puts "Введите ваши Имя Фамилию возраст (через пробел)"
-data = gets
-name, surname, age = data.split(" ")
-age = age.to_i
-p name
-p surname
-p age
+  puts "Введите ваши Имя Фамилию возраст (через пробел)"
+  data = gets
+  name, surname, age = data.split
+  age = age.to_i
 
+  greeting(name, surname, age)
