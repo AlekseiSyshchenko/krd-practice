@@ -10,8 +10,9 @@ def foobar(number1, number2)
   end
 end
 
-puts 'Введите два целых числа'
+print 'Введите первое число: '
 num1 = gets.to_i
+print 'Введите второе число: '
 num2 = gets.to_i
 
 result = foobar(num1, num2)
